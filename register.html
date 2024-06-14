@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+input[type=reset] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+	
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  height:50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  color: white;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+.fa-linkedin {
+  color: white;
+}
+
+.fa-youtube {
+  color: white;
+}
+
+.fa-instagram {
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+  color: white;
+}
+
+.fa-android {
+  color: white;
+}
+
+
+.fa-foursquare {
+  color: white;
+}
+
+
+.fa-rss {
+  color: white;
+}
+</style>
+</head>
+<body>
+
+  <div class="top" align="center">
+    <img src="image/Hot_Beans-removebg-preview.png" style="width: 6%", height="6%" title="Welcome to hot beans web!" alt="">
+    <h2>Hot Beans Web</h2>
+  </div>
+	
+<div class="topnav">
+  <a href="index.html">ABOUT US</a>
+  <a href="apply.html">APPLY</a>
+  <a href="Job Brief.html">COURSES</a>
+  <a href="register.html">REGISTER</a>
+</div>
+
+<h3>Contact Form</h3>
+
+<div class="container">
+  <form action="/action_page.php" enctype="multipart/form-data">
+    <p>
+      <label for="fname">First Name</label>
+      <input name="firstname" type="text" required="required" id="fname" placeholder="Your name..">
+      
+      <label for="lname">Last Name</label>
+      <input name="lastname" type="text" required="required" id="lname" placeholder="Your last name..">
+      
+      <label for="country">Country</label>
+      <select name="country" id="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+		 <option value="usa">UK</option>
+		   <option value="usa">Somaliland</option>
+      </select>
+      
+      <label for="subject">Subject</label>
+      <textarea name="subject" required="required" id="subject" style="height:200px" placeholder="Write something.."></textarea>
+      <label for="fileField">Upload your CV <br>
+      File:</label>
+      <input type="file" name="fileField" id="fileField">
+    </p>
+    <p>
+      <input type="submit" value="Submit">
+	  <input type="reset" value="Reset">
+    </p>
+  </form>
+</div>
+
+
+<div class="footer" align="center">
+  <p><a href="https://en-gb.facebook.com/" class="fa fa-facebook" target="_blank"></a>
+<a href="https://twitter.com/?lang=en" class="fa fa-twitter" target="_blank"></a>
+<a href="https://uk.linkedin.com/" class="fa fa-linkedin" target="_blank"></a>
+<a href="https://www.youtube.com/" class="fa fa-youtube" target="_blank"></a>
+<a href="https://www.instagram.com/" class="fa fa-instagram" target="_blank"></a>
+<a href="https://www.snapchat.com/" class="fa fa-snapchat-ghost" target="_blank"></a>
+<a href="https://www.skype.com/en/" class="fa fa-skype" target="_blank"></a>
+<a href="https://www.android.com/intl/en_uk/" class="fa fa-android" target="_blank"></a>
+<a href="https://foursquare.com/" class="fa fa-foursquare" target="_blank"></a>
+<a href="https://rss.com/" class="fa fa-rss" target="_blank"></a></p>
+</div>
+
+</body>
+</html>
